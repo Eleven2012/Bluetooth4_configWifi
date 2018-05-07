@@ -1,0 +1,760 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A2B7B3C209C648500FFFC9D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2B7B3B209C648500FFFC9D /* AppDelegate.m */; };
+		2A2B7B3F209C648500FFFC9D /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2B7B3E209C648500FFFC9D /* FirstViewController.m */; };
+		2A2B7B42209C648500FFFC9D /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2B7B41209C648500FFFC9D /* SecondViewController.m */; };
+		2A2B7B45209C648500FFFC9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A2B7B43209C648500FFFC9D /* Main.storyboard */; };
+		2A2B7B47209C648800FFFC9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A2B7B46209C648800FFFC9D /* Assets.xcassets */; };
+		2A2B7B4A209C648800FFFC9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A2B7B48209C648800FFFC9D /* LaunchScreen.storyboard */; };
+		2A2B7B4D209C648800FFFC9D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2B7B4C209C648800FFFC9D /* main.m */; };
+		2A2B7B57209C648800FFFC9D /* HY_BluetoothCfgWiFiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2B7B56209C648800FFFC9D /* HY_BluetoothCfgWiFiTests.m */; };
+		2A2B7B62209C648800FFFC9D /* HY_BluetoothCfgWiFiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2B7B61209C648800FFFC9D /* HY_BluetoothCfgWiFiUITests.m */; };
+		2A2B7B7D209C64A500FFFC9D /* CBUUID+StringExtraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2B7B71209C64A500FFFC9D /* CBUUID+StringExtraction.m */; };
+		2A2B7B7E209C64A500FFFC9D /* LGCentralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2B7B74209C64A500FFFC9D /* LGCentralManager.m */; };
+		2A2B7B7F209C64A500FFFC9D /* LGCharacteristic.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2B7B76209C64A500FFFC9D /* LGCharacteristic.m */; };
+		2A2B7B80209C64A500FFFC9D /* LGPeripheral.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2B7B78209C64A500FFFC9D /* LGPeripheral.m */; };
+		2A2B7B81209C64A500FFFC9D /* LGService.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2B7B7A209C64A500FFFC9D /* LGService.m */; };
+		2A2B7B82209C64A500FFFC9D /* LGUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2B7B7C209C64A500FFFC9D /* LGUtils.m */; };
+		2A2B7B85209C64F500FFFC9D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A2B7B84209C64F500FFFC9D /* Foundation.framework */; };
+		2A2B7B87209C64FE00FFFC9D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A2B7B86209C64FE00FFFC9D /* UIKit.framework */; };
+		2A2B7B89209C650800FFFC9D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A2B7B88209C650800FFFC9D /* CoreGraphics.framework */; };
+		2A2B7B93209C975200FFFC9D /* EFShowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2B7B8E209C975100FFFC9D /* EFShowView.m */; };
+		2A2B7B94209C975200FFFC9D /* UIView+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2B7B90209C975200FFFC9D /* UIView+Ext.m */; };
+		2A2B7B95209C975200FFFC9D /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2B7B92209C975200FFFC9D /* MBProgressHUD.m */; };
+		2A2B7B98209CA16400FFFC9D /* EasyUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2B7B96209CA16400FFFC9D /* EasyUtils.m */; };
+		2A2B7BA4209CA1D000FFFC9D /* EasyPeripheral.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2B7B9C209CA1CF00FFFC9D /* EasyPeripheral.m */; };
+		2A2B7BA5209CA1D000FFFC9D /* EasyCharacteristic.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2B7B9D209CA1CF00FFFC9D /* EasyCharacteristic.m */; };
+		2A2B7BA6209CA1D000FFFC9D /* EasyDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2B7B9F209CA1CF00FFFC9D /* EasyDescriptor.m */; };
+		2A2B7BA7209CA1D000FFFC9D /* EasyCenterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2B7BA1209CA1CF00FFFC9D /* EasyCenterManager.m */; };
+		2A2B7BA8209CA1D000FFFC9D /* EasyService.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2B7BA2209CA1CF00FFFC9D /* EasyService.m */; };
+		2A2B7BAB209CA20A00FFFC9D /* EasyBlueToothManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2B7BA9209CA20A00FFFC9D /* EasyBlueToothManager.m */; };
+		2A2B7BAE209CA22200FFFC9D /* EasyManagerOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2B7BAD209CA22200FFFC9D /* EasyManagerOptions.m */; };
+		2A2B7BB0209D4A0F00FFFC9D /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A2B7BAF209D4A0E00FFFC9D /* CoreBluetooth.framework */; };
+		2A46ED60209D92D500B3002A /* ToolCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A46ED5D209D92D400B3002A /* ToolCell.xib */; };
+		2A46ED61209D92D500B3002A /* ToolCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A46ED5E209D92D500B3002A /* ToolCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A2B7B53209C648800FFFC9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A2B7B2F209C648500FFFC9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A2B7B36209C648500FFFC9D;
+			remoteInfo = HY_BluetoothCfgWiFi;
+		};
+		2A2B7B5E209C648800FFFC9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A2B7B2F209C648500FFFC9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A2B7B36209C648500FFFC9D;
+			remoteInfo = HY_BluetoothCfgWiFi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A2B7B37209C648500FFFC9D /* HY_BluetoothCfgWiFi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HY_BluetoothCfgWiFi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A2B7B3A209C648500FFFC9D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2A2B7B3B209C648500FFFC9D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2A2B7B3D209C648500FFFC9D /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		2A2B7B3E209C648500FFFC9D /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		2A2B7B40209C648500FFFC9D /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		2A2B7B41209C648500FFFC9D /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		2A2B7B44209C648500FFFC9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2A2B7B46209C648800FFFC9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A2B7B49209C648800FFFC9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2A2B7B4B209C648800FFFC9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A2B7B4C209C648800FFFC9D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A2B7B52209C648800FFFC9D /* HY_BluetoothCfgWiFiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HY_BluetoothCfgWiFiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A2B7B56209C648800FFFC9D /* HY_BluetoothCfgWiFiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HY_BluetoothCfgWiFiTests.m; sourceTree = "<group>"; };
+		2A2B7B58209C648800FFFC9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A2B7B5D209C648800FFFC9D /* HY_BluetoothCfgWiFiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HY_BluetoothCfgWiFiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A2B7B61209C648800FFFC9D /* HY_BluetoothCfgWiFiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HY_BluetoothCfgWiFiUITests.m; sourceTree = "<group>"; };
+		2A2B7B63209C648800FFFC9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A2B7B70209C64A500FFFC9D /* CBUUID+StringExtraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CBUUID+StringExtraction.h"; sourceTree = "<group>"; };
+		2A2B7B71209C64A500FFFC9D /* CBUUID+StringExtraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CBUUID+StringExtraction.m"; sourceTree = "<group>"; };
+		2A2B7B72209C64A500FFFC9D /* LGBluetooth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGBluetooth.h; sourceTree = "<group>"; };
+		2A2B7B73209C64A500FFFC9D /* LGCentralManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGCentralManager.h; sourceTree = "<group>"; };
+		2A2B7B74209C64A500FFFC9D /* LGCentralManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGCentralManager.m; sourceTree = "<group>"; };
+		2A2B7B75209C64A500FFFC9D /* LGCharacteristic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGCharacteristic.h; sourceTree = "<group>"; };
+		2A2B7B76209C64A500FFFC9D /* LGCharacteristic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGCharacteristic.m; sourceTree = "<group>"; };
+		2A2B7B77209C64A500FFFC9D /* LGPeripheral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGPeripheral.h; sourceTree = "<group>"; };
+		2A2B7B78209C64A500FFFC9D /* LGPeripheral.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGPeripheral.m; sourceTree = "<group>"; };
+		2A2B7B79209C64A500FFFC9D /* LGService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGService.h; sourceTree = "<group>"; };
+		2A2B7B7A209C64A500FFFC9D /* LGService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGService.m; sourceTree = "<group>"; };
+		2A2B7B7B209C64A500FFFC9D /* LGUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGUtils.h; sourceTree = "<group>"; };
+		2A2B7B7C209C64A500FFFC9D /* LGUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGUtils.m; sourceTree = "<group>"; };
+		2A2B7B84209C64F500FFFC9D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2A2B7B86209C64FE00FFFC9D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2A2B7B88209C650800FFFC9D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2A2B7B8A209C658100FFFC9D /* HY_BluetoothCfgWiFi.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HY_BluetoothCfgWiFi.pch; sourceTree = "<group>"; };
+		2A2B7B8B209C66A300FFFC9D /* BTDataType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTDataType.h; sourceTree = "<group>"; };
+		2A2B7B8D209C975100FFFC9D /* UIView+Ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Ext.h"; sourceTree = "<group>"; };
+		2A2B7B8E209C975100FFFC9D /* EFShowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EFShowView.m; sourceTree = "<group>"; };
+		2A2B7B8F209C975100FFFC9D /* EFShowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFShowView.h; sourceTree = "<group>"; };
+		2A2B7B90209C975200FFFC9D /* UIView+Ext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Ext.m"; sourceTree = "<group>"; };
+		2A2B7B91209C975200FFFC9D /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		2A2B7B92209C975200FFFC9D /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		2A2B7B96209CA16400FFFC9D /* EasyUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyUtils.m; sourceTree = "<group>"; };
+		2A2B7B97209CA16400FFFC9D /* EasyUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyUtils.h; sourceTree = "<group>"; };
+		2A2B7B9A209CA1CF00FFFC9D /* EasyPeripheral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyPeripheral.h; sourceTree = "<group>"; };
+		2A2B7B9B209CA1CF00FFFC9D /* EasyService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyService.h; sourceTree = "<group>"; };
+		2A2B7B9C209CA1CF00FFFC9D /* EasyPeripheral.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyPeripheral.m; sourceTree = "<group>"; };
+		2A2B7B9D209CA1CF00FFFC9D /* EasyCharacteristic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyCharacteristic.m; sourceTree = "<group>"; };
+		2A2B7B9E209CA1CF00FFFC9D /* EasyDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyDescriptor.h; sourceTree = "<group>"; };
+		2A2B7B9F209CA1CF00FFFC9D /* EasyDescriptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyDescriptor.m; sourceTree = "<group>"; };
+		2A2B7BA0209CA1CF00FFFC9D /* EasyCenterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyCenterManager.h; sourceTree = "<group>"; };
+		2A2B7BA1209CA1CF00FFFC9D /* EasyCenterManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyCenterManager.m; sourceTree = "<group>"; };
+		2A2B7BA2209CA1CF00FFFC9D /* EasyService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyService.m; sourceTree = "<group>"; };
+		2A2B7BA3209CA1CF00FFFC9D /* EasyCharacteristic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyCharacteristic.h; sourceTree = "<group>"; };
+		2A2B7BA9209CA20A00FFFC9D /* EasyBlueToothManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyBlueToothManager.m; sourceTree = "<group>"; };
+		2A2B7BAA209CA20A00FFFC9D /* EasyBlueToothManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyBlueToothManager.h; sourceTree = "<group>"; };
+		2A2B7BAC209CA22200FFFC9D /* EasyManagerOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyManagerOptions.h; sourceTree = "<group>"; };
+		2A2B7BAD209CA22200FFFC9D /* EasyManagerOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyManagerOptions.m; sourceTree = "<group>"; };
+		2A2B7BAF209D4A0E00FFFC9D /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		2A46ED5D209D92D400B3002A /* ToolCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ToolCell.xib; sourceTree = "<group>"; };
+		2A46ED5E209D92D500B3002A /* ToolCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToolCell.m; sourceTree = "<group>"; };
+		2A46ED5F209D92D500B3002A /* ToolCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToolCell.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A2B7B34209C648500FFFC9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A2B7BB0209D4A0F00FFFC9D /* CoreBluetooth.framework in Frameworks */,
+				2A2B7B89209C650800FFFC9D /* CoreGraphics.framework in Frameworks */,
+				2A2B7B87209C64FE00FFFC9D /* UIKit.framework in Frameworks */,
+				2A2B7B85209C64F500FFFC9D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A2B7B4F209C648800FFFC9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A2B7B5A209C648800FFFC9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A2B7B2E209C648500FFFC9D = {
+			isa = PBXGroup;
+			children = (
+				2A2B7B39209C648500FFFC9D /* HY_BluetoothCfgWiFi */,
+				2A2B7B55209C648800FFFC9D /* HY_BluetoothCfgWiFiTests */,
+				2A2B7B60209C648800FFFC9D /* HY_BluetoothCfgWiFiUITests */,
+				2A2B7B38209C648500FFFC9D /* Products */,
+				2A2B7B83209C64F500FFFC9D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2A2B7B38209C648500FFFC9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A2B7B37209C648500FFFC9D /* HY_BluetoothCfgWiFi.app */,
+				2A2B7B52209C648800FFFC9D /* HY_BluetoothCfgWiFiTests.xctest */,
+				2A2B7B5D209C648800FFFC9D /* HY_BluetoothCfgWiFiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A2B7B39209C648500FFFC9D /* HY_BluetoothCfgWiFi */ = {
+			isa = PBXGroup;
+			children = (
+				2A2B7B99209CA1B300FFFC9D /* EasyTool */,
+				2A2B7B8C209C973D00FFFC9D /* Utils */,
+				2A2B7B6F209C64A500FFFC9D /* LGBluetooth */,
+				2A2B7B3A209C648500FFFC9D /* AppDelegate.h */,
+				2A2B7B3B209C648500FFFC9D /* AppDelegate.m */,
+				2A2B7B3D209C648500FFFC9D /* FirstViewController.h */,
+				2A2B7B3E209C648500FFFC9D /* FirstViewController.m */,
+				2A46ED5F209D92D500B3002A /* ToolCell.h */,
+				2A46ED5E209D92D500B3002A /* ToolCell.m */,
+				2A46ED5D209D92D400B3002A /* ToolCell.xib */,
+				2A2B7B40209C648500FFFC9D /* SecondViewController.h */,
+				2A2B7B41209C648500FFFC9D /* SecondViewController.m */,
+				2A2B7B43209C648500FFFC9D /* Main.storyboard */,
+				2A2B7B46209C648800FFFC9D /* Assets.xcassets */,
+				2A2B7B48209C648800FFFC9D /* LaunchScreen.storyboard */,
+				2A2B7B4B209C648800FFFC9D /* Info.plist */,
+				2A2B7B4C209C648800FFFC9D /* main.m */,
+				2A2B7B8A209C658100FFFC9D /* HY_BluetoothCfgWiFi.pch */,
+			);
+			path = HY_BluetoothCfgWiFi;
+			sourceTree = "<group>";
+		};
+		2A2B7B55209C648800FFFC9D /* HY_BluetoothCfgWiFiTests */ = {
+			isa = PBXGroup;
+			children = (
+				2A2B7B56209C648800FFFC9D /* HY_BluetoothCfgWiFiTests.m */,
+				2A2B7B58209C648800FFFC9D /* Info.plist */,
+			);
+			path = HY_BluetoothCfgWiFiTests;
+			sourceTree = "<group>";
+		};
+		2A2B7B60209C648800FFFC9D /* HY_BluetoothCfgWiFiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2A2B7B61209C648800FFFC9D /* HY_BluetoothCfgWiFiUITests.m */,
+				2A2B7B63209C648800FFFC9D /* Info.plist */,
+			);
+			path = HY_BluetoothCfgWiFiUITests;
+			sourceTree = "<group>";
+		};
+		2A2B7B6F209C64A500FFFC9D /* LGBluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				2A2B7B8B209C66A300FFFC9D /* BTDataType.h */,
+				2A2B7B70209C64A500FFFC9D /* CBUUID+StringExtraction.h */,
+				2A2B7B71209C64A500FFFC9D /* CBUUID+StringExtraction.m */,
+				2A2B7B72209C64A500FFFC9D /* LGBluetooth.h */,
+				2A2B7B73209C64A500FFFC9D /* LGCentralManager.h */,
+				2A2B7B74209C64A500FFFC9D /* LGCentralManager.m */,
+				2A2B7B75209C64A500FFFC9D /* LGCharacteristic.h */,
+				2A2B7B76209C64A500FFFC9D /* LGCharacteristic.m */,
+				2A2B7B77209C64A500FFFC9D /* LGPeripheral.h */,
+				2A2B7B78209C64A500FFFC9D /* LGPeripheral.m */,
+				2A2B7B79209C64A500FFFC9D /* LGService.h */,
+				2A2B7B7A209C64A500FFFC9D /* LGService.m */,
+				2A2B7B7B209C64A500FFFC9D /* LGUtils.h */,
+				2A2B7B7C209C64A500FFFC9D /* LGUtils.m */,
+			);
+			path = LGBluetooth;
+			sourceTree = "<group>";
+		};
+		2A2B7B83209C64F500FFFC9D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A2B7BAF209D4A0E00FFFC9D /* CoreBluetooth.framework */,
+				2A2B7B88209C650800FFFC9D /* CoreGraphics.framework */,
+				2A2B7B86209C64FE00FFFC9D /* UIKit.framework */,
+				2A2B7B84209C64F500FFFC9D /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2A2B7B8C209C973D00FFFC9D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				2A2B7B97209CA16400FFFC9D /* EasyUtils.h */,
+				2A2B7B96209CA16400FFFC9D /* EasyUtils.m */,
+				2A2B7B8F209C975100FFFC9D /* EFShowView.h */,
+				2A2B7B8E209C975100FFFC9D /* EFShowView.m */,
+				2A2B7B91209C975200FFFC9D /* MBProgressHUD.h */,
+				2A2B7B92209C975200FFFC9D /* MBProgressHUD.m */,
+				2A2B7B8D209C975100FFFC9D /* UIView+Ext.h */,
+				2A2B7B90209C975200FFFC9D /* UIView+Ext.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		2A2B7B99209CA1B300FFFC9D /* EasyTool */ = {
+			isa = PBXGroup;
+			children = (
+				2A2B7BAC209CA22200FFFC9D /* EasyManagerOptions.h */,
+				2A2B7BAD209CA22200FFFC9D /* EasyManagerOptions.m */,
+				2A2B7BAA209CA20A00FFFC9D /* EasyBlueToothManager.h */,
+				2A2B7BA9209CA20A00FFFC9D /* EasyBlueToothManager.m */,
+				2A2B7BA0209CA1CF00FFFC9D /* EasyCenterManager.h */,
+				2A2B7BA1209CA1CF00FFFC9D /* EasyCenterManager.m */,
+				2A2B7BA3209CA1CF00FFFC9D /* EasyCharacteristic.h */,
+				2A2B7B9D209CA1CF00FFFC9D /* EasyCharacteristic.m */,
+				2A2B7B9E209CA1CF00FFFC9D /* EasyDescriptor.h */,
+				2A2B7B9F209CA1CF00FFFC9D /* EasyDescriptor.m */,
+				2A2B7B9A209CA1CF00FFFC9D /* EasyPeripheral.h */,
+				2A2B7B9C209CA1CF00FFFC9D /* EasyPeripheral.m */,
+				2A2B7B9B209CA1CF00FFFC9D /* EasyService.h */,
+				2A2B7BA2209CA1CF00FFFC9D /* EasyService.m */,
+			);
+			path = EasyTool;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A2B7B36209C648500FFFC9D /* HY_BluetoothCfgWiFi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A2B7B66209C648800FFFC9D /* Build configuration list for PBXNativeTarget "HY_BluetoothCfgWiFi" */;
+			buildPhases = (
+				2A2B7B33209C648500FFFC9D /* Sources */,
+				2A2B7B34209C648500FFFC9D /* Frameworks */,
+				2A2B7B35209C648500FFFC9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HY_BluetoothCfgWiFi;
+			productName = HY_BluetoothCfgWiFi;
+			productReference = 2A2B7B37209C648500FFFC9D /* HY_BluetoothCfgWiFi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2A2B7B51209C648800FFFC9D /* HY_BluetoothCfgWiFiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A2B7B69209C648800FFFC9D /* Build configuration list for PBXNativeTarget "HY_BluetoothCfgWiFiTests" */;
+			buildPhases = (
+				2A2B7B4E209C648800FFFC9D /* Sources */,
+				2A2B7B4F209C648800FFFC9D /* Frameworks */,
+				2A2B7B50209C648800FFFC9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A2B7B54209C648800FFFC9D /* PBXTargetDependency */,
+			);
+			name = HY_BluetoothCfgWiFiTests;
+			productName = HY_BluetoothCfgWiFiTests;
+			productReference = 2A2B7B52209C648800FFFC9D /* HY_BluetoothCfgWiFiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2A2B7B5C209C648800FFFC9D /* HY_BluetoothCfgWiFiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A2B7B6C209C648800FFFC9D /* Build configuration list for PBXNativeTarget "HY_BluetoothCfgWiFiUITests" */;
+			buildPhases = (
+				2A2B7B59209C648800FFFC9D /* Sources */,
+				2A2B7B5A209C648800FFFC9D /* Frameworks */,
+				2A2B7B5B209C648800FFFC9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A2B7B5F209C648800FFFC9D /* PBXTargetDependency */,
+			);
+			name = HY_BluetoothCfgWiFiUITests;
+			productName = HY_BluetoothCfgWiFiUITests;
+			productReference = 2A2B7B5D209C648800FFFC9D /* HY_BluetoothCfgWiFiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A2B7B2F209C648500FFFC9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "孔雨露";
+				TargetAttributes = {
+					2A2B7B36209C648500FFFC9D = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					2A2B7B51209C648800FFFC9D = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 2A2B7B36209C648500FFFC9D;
+					};
+					2A2B7B5C209C648800FFFC9D = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 2A2B7B36209C648500FFFC9D;
+					};
+				};
+			};
+			buildConfigurationList = 2A2B7B32209C648500FFFC9D /* Build configuration list for PBXProject "HY_BluetoothCfgWiFi" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A2B7B2E209C648500FFFC9D;
+			productRefGroup = 2A2B7B38209C648500FFFC9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A2B7B36209C648500FFFC9D /* HY_BluetoothCfgWiFi */,
+				2A2B7B51209C648800FFFC9D /* HY_BluetoothCfgWiFiTests */,
+				2A2B7B5C209C648800FFFC9D /* HY_BluetoothCfgWiFiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A2B7B35209C648500FFFC9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A2B7B4A209C648800FFFC9D /* LaunchScreen.storyboard in Resources */,
+				2A2B7B47209C648800FFFC9D /* Assets.xcassets in Resources */,
+				2A2B7B45209C648500FFFC9D /* Main.storyboard in Resources */,
+				2A46ED60209D92D500B3002A /* ToolCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A2B7B50209C648800FFFC9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A2B7B5B209C648800FFFC9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A2B7B33209C648500FFFC9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A2B7BAB209CA20A00FFFC9D /* EasyBlueToothManager.m in Sources */,
+				2A2B7B80209C64A500FFFC9D /* LGPeripheral.m in Sources */,
+				2A2B7B98209CA16400FFFC9D /* EasyUtils.m in Sources */,
+				2A2B7BA8209CA1D000FFFC9D /* EasyService.m in Sources */,
+				2A2B7BA7209CA1D000FFFC9D /* EasyCenterManager.m in Sources */,
+				2A2B7B42209C648500FFFC9D /* SecondViewController.m in Sources */,
+				2A2B7B7D209C64A500FFFC9D /* CBUUID+StringExtraction.m in Sources */,
+				2A2B7B7E209C64A500FFFC9D /* LGCentralManager.m in Sources */,
+				2A2B7B3C209C648500FFFC9D /* AppDelegate.m in Sources */,
+				2A2B7BAE209CA22200FFFC9D /* EasyManagerOptions.m in Sources */,
+				2A2B7BA4209CA1D000FFFC9D /* EasyPeripheral.m in Sources */,
+				2A2B7B4D209C648800FFFC9D /* main.m in Sources */,
+				2A2B7B81209C64A500FFFC9D /* LGService.m in Sources */,
+				2A46ED61209D92D500B3002A /* ToolCell.m in Sources */,
+				2A2B7B93209C975200FFFC9D /* EFShowView.m in Sources */,
+				2A2B7BA5209CA1D000FFFC9D /* EasyCharacteristic.m in Sources */,
+				2A2B7B94209C975200FFFC9D /* UIView+Ext.m in Sources */,
+				2A2B7B95209C975200FFFC9D /* MBProgressHUD.m in Sources */,
+				2A2B7B3F209C648500FFFC9D /* FirstViewController.m in Sources */,
+				2A2B7B82209C64A500FFFC9D /* LGUtils.m in Sources */,
+				2A2B7B7F209C64A500FFFC9D /* LGCharacteristic.m in Sources */,
+				2A2B7BA6209CA1D000FFFC9D /* EasyDescriptor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A2B7B4E209C648800FFFC9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A2B7B57209C648800FFFC9D /* HY_BluetoothCfgWiFiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A2B7B59209C648800FFFC9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A2B7B62209C648800FFFC9D /* HY_BluetoothCfgWiFiUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A2B7B54209C648800FFFC9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A2B7B36209C648500FFFC9D /* HY_BluetoothCfgWiFi */;
+			targetProxy = 2A2B7B53209C648800FFFC9D /* PBXContainerItemProxy */;
+		};
+		2A2B7B5F209C648800FFFC9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A2B7B36209C648500FFFC9D /* HY_BluetoothCfgWiFi */;
+			targetProxy = 2A2B7B5E209C648800FFFC9D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2A2B7B43209C648500FFFC9D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A2B7B44209C648500FFFC9D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2A2B7B48209C648800FFFC9D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A2B7B49209C648800FFFC9D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A2B7B64209C648800FFFC9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2A2B7B65209C648800FFFC9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A2B7B67209C648800FFFC9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6VD4K42VTW;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = HY_BluetoothCfgWiFi/HY_BluetoothCfgWiFi.pch;
+				INFOPLIST_FILE = HY_BluetoothCfgWiFi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wswy.HY-BluetoothCfgWiFi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2A2B7B68209C648800FFFC9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6VD4K42VTW;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = HY_BluetoothCfgWiFi/HY_BluetoothCfgWiFi.pch;
+				INFOPLIST_FILE = HY_BluetoothCfgWiFi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wswy.HY-BluetoothCfgWiFi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2A2B7B6A209C648800FFFC9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6VD4K42VTW;
+				INFOPLIST_FILE = HY_BluetoothCfgWiFiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wswy.HY-BluetoothCfgWiFiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HY_BluetoothCfgWiFi.app/HY_BluetoothCfgWiFi";
+			};
+			name = Debug;
+		};
+		2A2B7B6B209C648800FFFC9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6VD4K42VTW;
+				INFOPLIST_FILE = HY_BluetoothCfgWiFiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wswy.HY-BluetoothCfgWiFiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HY_BluetoothCfgWiFi.app/HY_BluetoothCfgWiFi";
+			};
+			name = Release;
+		};
+		2A2B7B6D209C648800FFFC9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6VD4K42VTW;
+				INFOPLIST_FILE = HY_BluetoothCfgWiFiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wswy.HY-BluetoothCfgWiFiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HY_BluetoothCfgWiFi;
+			};
+			name = Debug;
+		};
+		2A2B7B6E209C648800FFFC9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6VD4K42VTW;
+				INFOPLIST_FILE = HY_BluetoothCfgWiFiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wswy.HY-BluetoothCfgWiFiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HY_BluetoothCfgWiFi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A2B7B32209C648500FFFC9D /* Build configuration list for PBXProject "HY_BluetoothCfgWiFi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A2B7B64209C648800FFFC9D /* Debug */,
+				2A2B7B65209C648800FFFC9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A2B7B66209C648800FFFC9D /* Build configuration list for PBXNativeTarget "HY_BluetoothCfgWiFi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A2B7B67209C648800FFFC9D /* Debug */,
+				2A2B7B68209C648800FFFC9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A2B7B69209C648800FFFC9D /* Build configuration list for PBXNativeTarget "HY_BluetoothCfgWiFiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A2B7B6A209C648800FFFC9D /* Debug */,
+				2A2B7B6B209C648800FFFC9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A2B7B6C209C648800FFFC9D /* Build configuration list for PBXNativeTarget "HY_BluetoothCfgWiFiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A2B7B6D209C648800FFFC9D /* Debug */,
+				2A2B7B6E209C648800FFFC9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A2B7B2F209C648500FFFC9D /* Project object */;
+}
